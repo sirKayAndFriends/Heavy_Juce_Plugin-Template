@@ -24,5 +24,7 @@ You then need to build the project with an IDE of your choice.  I use Visual Stu
 This project is ready to build once you have done the above tasks.  Build it from your IDE then mess around in the PluginEditor.cpp file to change the style of the sliders!
 You can also use this template to build your own plugins quickly.  You will need to change some of the code to fit your plugin as yours might be a synth with no inputs, or have parameters other than "gain" and "tone".
 
+I have added comments on the parts that you will need to change for your own projects.  For the most part the processor files stay the same as you are simply passing audio to the Heavy Interface and then receiving its output.  The bits that pass parameter data are also flexible for the most part.
+
 Build a patch in PlugData, export the C++ code and try it out.  Have fun :)
 
