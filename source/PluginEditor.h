@@ -29,6 +29,11 @@ public:
 
 private:
 
+    //change this for your own plugin parameters e.g.
+    
+    //std::unique_ptr < juce::Slider> mPitchSlider, mModSlider;
+    
+    //or whatever
     std::unique_ptr < juce::Slider> mGainSlider, mVolumeSlider, mToneSlider;
     DemoAudioProcessor& processor;
 

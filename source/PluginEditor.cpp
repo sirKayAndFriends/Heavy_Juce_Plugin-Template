@@ -14,6 +14,9 @@
 DemoAudioProcessorEditor::DemoAudioProcessorEditor (DemoAudioProcessor& p)
     : AudioProcessorEditor (&p), processor (p)
 {
+
+    //this bit will need significant altering for your own projects!
+    //go nuts
     mGainSlider = std::make_unique<juce::Slider>();
     mGainSlider->setSliderStyle(juce::Slider::SliderStyle::LinearVertical);
     mGainSlider->setTextBoxStyle(juce::Slider::TextBoxBelow, true, 50, 20);
@@ -53,6 +56,7 @@ void DemoAudioProcessorEditor::paint (juce::Graphics& g)
 
 void DemoAudioProcessorEditor::resized()
 {
+    //this too
     int y = getHeight() / 2 - 75;
     int h = 150;
     int w = 70;
@@ -63,7 +67,9 @@ void DemoAudioProcessorEditor::resized()
 }
 
 void DemoAudioProcessorEditor::sliderValueChanged(juce::Slider* slider)
-{
+{   
+    //copy and paste these if statements for the number of your own params
+    //change the names too obvs
     if (slider == mGainSlider.get())
     {
         processor.sendFloatToPlugin(HV_DEMO_PARAM_IN_GAIN, mGainSlider->getValue());

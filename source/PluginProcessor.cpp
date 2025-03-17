@@ -3,6 +3,10 @@
 
     This file contains the basic framework code for a JUCE plugin processor.
 
+    You will only need to change "process block" and "renderPlugin" functions
+    for your own projects and then only if you don't need inputs or outputs
+    (if you're making a MIDI plugin for example)
+
   ==============================================================================
 */
 
