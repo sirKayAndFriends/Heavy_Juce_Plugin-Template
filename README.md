@@ -14,7 +14,7 @@ The template is based on code from [this repository](https://github.com/o-g-sus/
 
 Download this code and chuck it into a folder somewhere.  Open the Projucer and start a new project and choose "basic plugin" then delete all the files it autofills and replace them with everything in the "source" folder.  I find it helpful to bundle everything into a "source" folder within the projucer for ease.  It should look like this.
 
-![Projucer Screenshot](Heavy_Juce_Plugin-Template/resources/projucerPic.png)
+![Projucer Screenshot](/resources/projucerPic.png)
 
 You will also need to choose link the Projucer to the JUCE files on your computer.  It will add them into the project for you, how nice.
 
