@@ -4,15 +4,17 @@ Do all the DSP nonsense in PlugData, compile it into C++ code with the Heavy com
 
 This code comes with a demo program as it is easier to show how it all works.  Its a cruddy tubescreamer-like overdrive.
 
-The template is based on code from [this repository] (https://github.com/o-g-sus/JUCE-HEAVY).  Thank you very much for the hard work :)
+The template is based on code from [this repository](https://github.com/o-g-sus/JUCE-HEAVY).  Thank you very much for the hard work :)
 
 ## GETTING STARTED
 **YOU WILL NEED**
 - [JUCE](https://juce.com/get-juce/)
 - An IDE of your choice
-- [PlugData] (https://plugdata.org/)
+- [PlugData](https://plugdata.org/)
 
 Download this code and chuck it into a folder somewhere.  Open the Projucer and start a new project and choose "basic plugin" then delete all the files it autofills and replace them with everything in the "source" folder.  I find it helpful to bundle everything into a "source" folder within the projucer for ease.  It should look like this.
+
+![Projucer Screenshot](Heavy_Juce_Plugin-Template/resources/projucerPic.png)
 
 You will also need to choose link the Projucer to the JUCE files on your computer.  It will add them into the project for you, how nice.
 
